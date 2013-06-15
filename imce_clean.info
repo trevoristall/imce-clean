@@ -1,0 +1,5 @@
+name = "IMCE Clean"
+description = "Styles IMCE to look a little more like ckeditor and suck less."
+core = "7.x"
+
+dependencies[] = "imce"

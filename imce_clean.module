@@ -1,0 +1,8 @@
+<?php
+
+function imce_clean_init() {
+  if ($_GET['q'] == 'imce') {
+    drupal_add_css(drupal_get_path('module', 'imce_clean') .'/imce_clean.css');
+  }
+}
+
